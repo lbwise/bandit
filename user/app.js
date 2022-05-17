@@ -66,8 +66,8 @@ function main() {
     catchAsync(getProfiles);
   } else if (out[0] == "profile") {
     catchAsync(getProfile, [out[1]]);
-  } else if (out[0] == "newProfile") ={
-
+  } else if (out[0] == "newProfile") {
+    return
   }
 }
 

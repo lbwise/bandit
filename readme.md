@@ -30,7 +30,4 @@ User creation Schema:
 - instruments (recommeded) (array)
 - genres (recommeded) (array)
 
-
-// includes name, date created, DOB, user location, instruments,
-// preffered genres, liked users and matches (mutual likes)
 Created by Liam Wise

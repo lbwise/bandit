@@ -1,6 +1,10 @@
 const geo = require('geolib');
 
-
+// Algorithm to find recommended matches - currently hardcoded based off:
+// 	location (within 15km)
+// 	genre matches (at least 1)
+// 	Age gap (within 5 years)
+// 	Skill rating (ommitted as not included in seed data)
 const isMatch = (user1, user2) => {
 	const withinRadius = geo.isPointWithinRadius(user1.location, user2.location, 15000);
 	let sameGenre = false;

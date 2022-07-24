@@ -1,6 +1,9 @@
 const { Schema, model } = require('mongoose');
 const { instruments, genres } = require('../errorHandling/userSchemaOptions');
 
+// mongoose schema for the User model
+// includes name, date created, DOB, user location, instruments,
+// preffered genres, liked users and matches (mutual likes)
 const userSchema = new Schema({
 	name: {
 		type: String,

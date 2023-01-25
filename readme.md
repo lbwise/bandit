@@ -1,8 +1,19 @@
-This is an API for matching musicians together based of compatibility
-No interface is included however endpoints and requests are displayed below
-There is also no authentication or authorization included yet
+<h1>BandIt</h1>
+<h3>Find the all the hiding musicians that are just like you!</h3>
+<br/>
+This is an API for matching musicians together based of compatibility.
+Compatibility is based off of:
+<li>Instrument</li>
+<li>Age</li>
+<li>Location</li>
+<li>Skill</li>
+<li>Preferred Genres</li>
 
-Endpoints:
+
+No interface is included however endpoints and requests are displayed below.
+There is also no authentication or authorization included yet.
+
+<h2>Endpoints:</h2>
 
 **GET /matches/id** - shows all the recommended profiles of a user
 
@@ -21,7 +32,7 @@ Endpoints:
 **DELETE /profile/id** - Deletes the user from the database
 
 
-User creation Schema:
+<h2>User creation Schema:</h2>
 - name (required)
 - dateOfBirth (required)
 - location (required):
@@ -29,5 +40,6 @@ User creation Schema:
 	- latitude
 - instruments (recommeded) (array)
 - genres (recommeded) (array)
+- skill level
 
 Created by Liam Wise

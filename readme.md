@@ -33,13 +33,13 @@ There is also no authentication or authorization included yet.
 
 
 <h2>User creation Schema:</h2>
-- name (required)
-- dateOfBirth (required)
-- location (required):
-	- longitude
-	- latitude
-- instruments (recommeded) (array)
-- genres (recommeded) (array)
-- skill level
+<li>name (required)</li>
+<li>dateOfBirth (required)</li>
+<li>location (required):</li>
+<li><li>longitude</li></li>
+<li><li>latitude</li></li>
+<li>instruments (recommeded) (array)</li>
+<li>genres (recommeded) (array)</li>
+<li>skill level (int 1 - 10)</li>
 
-Created by Liam Wise
+<strong>Created by Liam Wise<strong>

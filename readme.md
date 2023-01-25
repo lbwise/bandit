@@ -36,10 +36,12 @@ There is also no authentication or authorization included yet.
 <li>name (required)</li>
 <li>dateOfBirth (required)</li>
 <li>location (required):</li>
-<li><li>longitude</li></li>
-<li><li>latitude</li></li>
+<ul>
+<li>longitude</li>
+<li>latitude</li>
+</ul>
 <li>instruments (recommeded) (array)</li>
 <li>genres (recommeded) (array)</li>
 <li>skill level (int 1 - 10)</li>
-
+<br/>
 <strong>Created by Liam Wise<strong>
